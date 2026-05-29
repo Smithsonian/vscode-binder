@@ -4,7 +4,7 @@ code-server --install-extension ms-python.python
 code-server --install-extension ms-toolsai.jupyter
 
 # Install the VS code proxy
-pip install -e.
+pip install -e .
 
 # Install packages needed for lesson
-pip install pandas plotly
+pip install geopandas pandas plotly pyogrio
